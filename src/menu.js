@@ -1,5 +1,7 @@
 const drawMenu = () => {
     const content = document.querySelector('div#content');
+    const menuHolder = document.createElement('div');
+    menuHolder.classList.add("menuholder");
 
     const title = document.createElement('h1')
     title.classList.add("title");
@@ -49,10 +51,12 @@ const drawMenu = () => {
     sandlist.appendChild(mozza);
 
     sandwich_div.appendChild(sandlist);
-    
-    content.appendChild(title);
-    content.appendChild(sandwiches);
-    content.appendChild(sandwich_div);
+   
+    menuHolder.appendChild(title);
+    menuHolder.appendChild(sandwiches);
+    menuHolder.appendChild(sandwich_div);
+
+    content.appendChild(menuHolder);
 
 }
 
