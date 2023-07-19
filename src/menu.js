@@ -56,7 +56,43 @@ const drawMenu = () => {
     menuHolder.appendChild(sandwiches);
     menuHolder.appendChild(sandwich_div);
 
+    const drinkHolder = document.createElement('div');
+    drinkHolder.classList.add('drinkholder');
+    const drinklist = document.createElement('ul');
+
+    const espresso = document.createElement('li');
+    espresso.textContent = "Espresso";
+    const espresso_price = document.createElement('span');
+    espresso_price.textContent = "£1.50";
+    espresso.appendChild(espresso_price);
+
+    const americano = document.createElement('li');
+    americano.textContent = "Americano";
+    const americano_price = document.createElement('span');
+    americano_price.textContent = "£1.50";
+    americano.appendChild(americano_price);  
+
+    const coke = document.createElement('li');
+    coke.textContent = "Coca-cola";
+    const coke_price = document.createElement('span');
+    coke_price.textContent = "£1.00";
+    coke.appendChild(coke_price); 
+   
+    drinklist.appendChild(espresso);
+    drinklist.appendChild(americano);
+    drinklist.appendChild(coke);
+
+    drinkHolder.appendChild(drinklist);
+
+    const drinks = document.createElement('h2');
+    drinks.classList.add("sub-head");
+    drinks.textContent = "Drinks";
+    menuHolder.appendChild(drinks);
+
+
+    menuHolder.appendChild(drinkHolder);
     content.appendChild(menuHolder);
+    //content.appendChild(drinkHolder);
 
 }
 

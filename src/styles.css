@@ -16,6 +16,10 @@ div#content {
 
 }
 
+h1, h2, h2 {
+    color: var(--nav-color);
+}
+
 .navbar {
     background-color: var(--nav-color);
     margin: 0;
@@ -86,9 +90,16 @@ header .tabs li img {
     margin-left: auto;
 }
 
-.menuholder .sandwiches {
+.menuholder .sandwiches, .drinkholder {
     background-color: var(--menu-color);
     color: var(--bg-color);
     border-radius: 8px;
+    width: 400px;
+    margin: 20px 0;
+    box-shadow: 0 2px 2px 0 var(--nav-color);
 
+}
+
+.menuholder .drinkholder {
+    margin-bottom: 80px;
 }
