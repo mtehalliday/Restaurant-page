@@ -1,6 +1,5 @@
 const drawHome = () => {    
     const content = document.querySelector("div#content");
-    console.log(content);
 
     const home = document.createElement("div")
     home.classList.add("home");
