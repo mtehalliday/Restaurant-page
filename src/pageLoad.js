@@ -7,11 +7,12 @@ const drawHome = () => {
     const copy = document.createElement("p");
     const headline = document.createElement("h1")
     const sandwich = document.createElement("img")
+    sandwich.classList.add("pic");
 
 
     headline.textContent = "Matt's gourmet sandwiches";
     copy.textContent = "The most extraordinary sandwich emporium creating the most delectable lunchtime food for the hungry masses of this virtuous nation.";
-    sandwich.setAttribute("src", "../img/sandwich.jpg");
+    sandwich.setAttribute("src", "../img/light-sandwich-small.jpg");
 
     home.appendChild(sandwich);
     home.appendChild(headline);
