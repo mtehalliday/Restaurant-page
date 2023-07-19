@@ -1,1 +1,4 @@
-console.log("working");
+import { drawHome } from "./pageLoad.js";
+
+
+drawHome();

@@ -1,7 +1,6 @@
-import { ContextExclusionPlugin } from "webpack";
-
-function drawHome = () => {    
+const drawHome = () => {    
     const content = document.querySelector("div#content");
+    console.log(content);
 
     const home = document.createElement("div")
     home.classList.add("home");
@@ -19,6 +18,7 @@ function drawHome = () => {
     home.appendChild(copy);
     content.appendChild(home);
 }
+
 
 export {drawHome};
 
