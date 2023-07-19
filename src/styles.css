@@ -1,0 +1,21 @@
+header .tabs {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+
+header .tabs li {
+    padding: 0;
+    margin: 0;
+}
+header .tabs .icon {
+    margin-left: auto;
+}
+
+header .tabs li img {
+    height: 40px;
+    width: auto;
+}

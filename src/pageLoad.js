@@ -10,7 +10,7 @@ const drawHome = () => {
 
 
     headline.textContent = "Matt's gourmet sandwiches";
-    copy.textContent = "The most extraordinary sandwich emporium creating the most delectable lunchtime food for the hungry masses of this nation.";
+    copy.textContent = "The most extraordinary sandwich emporium creating the most delectable lunchtime food for the hungry masses of this virtuous nation.";
     sandwich.setAttribute("src", "../img/sandwich.jpg");
 
     home.appendChild(sandwich);
