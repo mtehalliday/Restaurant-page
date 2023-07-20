@@ -6,7 +6,18 @@ import './styles.css';
 
 drawHome();
 
-clean();
-drawMenu();
+const menu_tab = document.querySelector('#menu');
+const home_tab = document.querySelector('#home');
+
+menu_tab.addEventListener("click", () => {
+    clean();
+    drawMenu();
+});
+
+home_tab.addEventListener("click", () => {
+    clean();
+    drawHome();
+})
+
 
 
