@@ -110,3 +110,18 @@ header .tabs li img {
 .menuholder .drinkholder {
     margin-bottom: 80px;
 }
+.add-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address {
+    background-color: var(--menu-color);
+    color: var(--bg-color);
+    font-size: 24px;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 var(--nav-color);
+}
