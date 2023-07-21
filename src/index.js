@@ -11,6 +11,7 @@ drawContact();
 
 const menu_tab = document.querySelector('#menu');
 const home_tab = document.querySelector('#home');
+const contact_tab = document.querySelector('#contact');
 
 menu_tab.addEventListener("click", () => {
     clean();
@@ -20,6 +21,11 @@ menu_tab.addEventListener("click", () => {
 home_tab.addEventListener("click", () => {
     clean();
     drawHome();
+})
+
+contact_tab.addEventListener("click", () => {
+    clean();
+    drawContact();
 })
 
 

@@ -75,7 +75,7 @@ const drawMenu = () => {
     const coke = document.createElement('li');
     coke.textContent = "Coca-cola";
     const coke_price = document.createElement('span');
-    coke_price.textContent = "£1.00";
+    coke_price.textContent = "£1";
     coke.appendChild(coke_price); 
    
     drinklist.appendChild(espresso);
