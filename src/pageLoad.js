@@ -4,17 +4,18 @@ const drawHome = () => {
     const home = document.createElement("div")
     home.classList.add("home");
     const copy = document.createElement("p");
-    const headline = document.createElement("h1")
-    const sandwich = document.createElement("img")
+    const headback = document.createElement("div");
+    headback.classList.add('headback');
+    const sandwich = document.createElement("img");
     sandwich.classList.add("pic");
 
 
-    headline.textContent = "Matt's gourmet sandwiches";
+    headback.textContent = "Matt's gourmet sandwiches";
     copy.textContent = "The most extraordinary sandwich emporium creating the most delectable lunchtime food for the hungry masses of this virtuous nation.";
     sandwich.setAttribute("src", "../img/sandwich-svgrepo-com.svg");
 
     home.appendChild(sandwich);
-    home.appendChild(headline);
+    home.appendChild(headback);
     home.appendChild(copy);
     content.appendChild(home);
 }

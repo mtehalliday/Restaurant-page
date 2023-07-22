@@ -16,6 +16,18 @@ div#content {
 
 }
 
+div.headback {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(23, 46, 84, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+}
+
 h1, h2 {
     color: white;
 }
