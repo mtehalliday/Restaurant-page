@@ -9,9 +9,16 @@ const drawMenu = () => {
     const sandwiches = document.createElement("h2");
     sandwiches.classList.add("sub-head");
     sandwiches.textContent = "Sandwiches";
+
     
     const sandwich_div = document.createElement("div");
+    const sand_img = document.createElement("img")
+    sand_img.setAttribute('src', '../img/sandwich-svgrepo-com (1).svg');
+    sand_img.setAttribute('height', '50px');
+
     sandwich_div.classList.add("sandwiches");
+
+    sandwich_div.appendChild(sand_img);
     const sandlist = document.createElement("ul");
     
     const steak = document.createElement("li");
@@ -59,6 +66,12 @@ const drawMenu = () => {
     const drinkHolder = document.createElement('div');
     drinkHolder.classList.add('drinkholder');
     const drinklist = document.createElement('ul');
+
+    const drink = document.createElement('img');
+    drink.setAttribute("src", "../img/coffee-to-go-svgrepo-com.svg");
+    drink.setAttribute("height", "50px");
+
+    drinkHolder.appendChild(drink);
 
     const espresso = document.createElement('li');
     espresso.textContent = "Espresso";

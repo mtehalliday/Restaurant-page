@@ -3,7 +3,8 @@ const drawHome = () => {
 
     const home = document.createElement("div")
     home.classList.add("home");
-    const copy = document.createElement("p");
+    const copy = document.createElement("div");
+    copy.classList.add("copy");
     const headback = document.createElement("div");
     headback.classList.add('headback');
     const sandwich = document.createElement("img");
