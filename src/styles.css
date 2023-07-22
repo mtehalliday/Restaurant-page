@@ -172,10 +172,21 @@ header .tabs li img {
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 2px 0 var(--nav-color);
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address img {
+    height: 25px;
+    filter: brightness(0) invert(1);
+    color: white;
 }
 
 .add-container p {
-    margin-top: 30px
+    margin-top: 10px
 }
 
 footer {

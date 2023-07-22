@@ -5,7 +5,7 @@ import './styles.css';
 import { drawContact } from "./contact.js";
 
 
-drawMenu();
+drawContact();
 
 const menu_tab = document.querySelector('#menu');
 const home_tab = document.querySelector('#home');
